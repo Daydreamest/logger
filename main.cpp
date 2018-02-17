@@ -1,9 +1,11 @@
-#include <iostream>
-
-using namespace std;
+#include <Logger1.h>
 
 int main()
 {
-    cout << "Hello world!" << endl;
+
+    // Simple cout logging
+    Logger1 logger1;
+    logger1.log("Logger 1 test");
+
     return 0;
 }
