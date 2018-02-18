@@ -15,7 +15,7 @@ LoggingTools::LevelStringMap LoggingTools::get_map()
     return LevelStringMap {
         {LogLevel_Debug, "DBG "},
         {LogLevel_Info, "INF "},
-        {LogLevel_Warning, "WAR "},
+        {LogLevel_Warning, "WRN "},
         {LogLevel_Error, "ERR "}
     };
 }
